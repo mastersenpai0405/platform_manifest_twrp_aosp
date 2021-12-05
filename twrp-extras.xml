@@ -12,7 +12,7 @@
             fetch="https://github.com"/>
 
     <!-- TWRP lives in TeamWin android-11 (not AOSP!) -->
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-11"/>
+    <project path="bootable/recovery" name="mastersenpai0405/android_bootable_recovery" remote="github" revision="android-11"/>
 
     <project path="build/make" name="android_build" remote="TeamWin" revision="android-11" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile"/>
